@@ -9,13 +9,10 @@
 set PATH=%APPDATA%\npm;%~dp0;%PATH%
 
 cd C:\Program Files (x86)\Audinate\Dante Virtual Soundcard
-
-sleep 30
-
-dvs_gui.exe
-
-sleep 30
-
+::ping is just to waste some time...
+ping 127.0.0.1 -n 8
+start dvs_gui.exe
+ping 127.0.0.1 -n 8
 cd C:\Program Files (x86)\Pd
 
-bin\pd.exe -nosleep -font-face "Lucida Console" C:\Users\paral\Documents\spatial_audio_control\main.pd
+start bin\pd.exe -nosleep -font-face "Lucida Console" C:\Users\paral\Documents\spatial_audio_control\main.pd
