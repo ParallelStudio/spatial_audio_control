@@ -1,0 +1,14 @@
+#N canvas 4 23 450 300 10;
+#X msg 65 130 set \$1;
+#X floatatom 85 104 5 0 0 0 - - -, f 5;
+#X msg 85 77 21;
+#X text 73 18 saveable number box;
+#X text 73 33 jmej // parallel // 2017;
+#X obj 85 164 outlet;
+#X obj 85 51 inlet;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 1 0 5 0;
+#X connect 2 0 1 0;
+#X connect 6 0 2 0;
+#X coords 0 -1 1 1 33 17 2 85 103;

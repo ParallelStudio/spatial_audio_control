@@ -1,4 +1,4 @@
-#N canvas 143 296 1783 909 10;
+#N canvas 137 149 1783 909 10;
 #X obj 19 92 catch~ sound_1;
 #X obj 31 114 r sound_1_ctl;
 #X obj 122 92 catch~ sound_2;
@@ -119,3 +119,4 @@
 #X connect 45 0 70 1;
 #X connect 46 0 71 0;
 #X connect 47 0 71 1;
+#X coords 0 -1 1 1 2000 530 1 10 140;
