@@ -131,7 +131,7 @@
 #X obj 21 100 master_volume;
 #X obj 19 -34 transport;
 #X obj 21 276 matrix_mixer~;
-#N canvas 62 122 1858 843 scene_1 0;
+#N canvas 62 122 1858 843 scene_1 1;
 #X text 38 112 sound 1;
 #X text 355 26 open subpatches to edit scene;
 #X obj 39 460 s sound_1_ctl;
@@ -1022,7 +1022,7 @@
 #X msg 345 23 set \$1;
 #X msg 331 52 -99;
 #X msg 406 24 set \$1;
-#X msg 392 53 -99;
+#X msg 392 53 0;
 #X floatatom 19 103 5 0 0 0 - - -, f 5;
 #X floatatom 61 103 5 0 0 0 - - -, f 5;
 #X floatatom 101 103 5 0 0 0 - - -, f 5;
@@ -5943,7 +5943,7 @@
 #X msg 356 549 set \$1;
 #X msg 342 578 -99;
 #X msg 417 550 set \$1;
-#X msg 403 579 0;
+#X msg 403 579 -99;
 #X msg 482 550 set \$1;
 #X msg 468 579 -99;
 #X msg 543 551 set \$1;
@@ -6214,7 +6214,7 @@
 #X msg 417 550 set \$1;
 #X msg 403 579 -99;
 #X msg 482 550 set \$1;
-#X msg 468 579 0;
+#X msg 468 579 -99;
 #X msg 543 551 set \$1;
 #X msg 529 580 -99;
 #X text 22 213 17;
@@ -6485,7 +6485,7 @@
 #X msg 482 550 set \$1;
 #X msg 468 579 -99;
 #X msg 543 551 set \$1;
-#X msg 529 580 0;
+#X msg 529 580 -99;
 #X text 22 213 17;
 #X text 64 213 18;
 #X text 103 213 19;
