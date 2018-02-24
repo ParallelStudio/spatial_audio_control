@@ -1,14 +1,16 @@
-rem installation procedure
+:: installation procedure
 
-rem put this in startup folder - get it from run shell:startup
-rem turn off system sounds from tray icon
-rem run Netplwiz to turn auto login on
+:: put this in startup folder - get it from run shell:startup
+:: turn off system sounds from tray icon
+:: run Netplwiz to turn auto login on
 
 @echo off
 
 set PATH=%APPDATA%\npm;%~dp0;%PATH%
 
 cd C:\Program Files (x86)\Audinate\Dante Virtual Soundcard
+
+sleep 30
 
 dvs_gui.exe
 
