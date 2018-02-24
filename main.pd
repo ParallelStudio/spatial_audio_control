@@ -1,4 +1,4 @@
-#N canvas 80 60 1601 910 10;
+#N canvas 544 80 1601 910 10;
 #X obj 153 843 outputs~;
 #N canvas 565 257 979 729 audio_files 0;
 #X obj 43 274 8_streamers~, f 33;

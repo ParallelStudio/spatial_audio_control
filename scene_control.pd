@@ -1,5 +1,5 @@
 #N canvas 584 88 668 402 10;
-#N canvas 188 217 1858 1031 scene_1 1;
+#N canvas 62 27 1858 1031 scene_1 1;
 #X text 38 112 sound 1;
 #X text 355 26 open subpatches to edit scene;
 #X obj 39 460 s sound_1_ctl;
